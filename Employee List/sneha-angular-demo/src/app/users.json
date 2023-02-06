@@ -1,0 +1,81 @@
+[{
+    "id": 1,
+    "name": "Akash Kalikiri",
+    "department": "Automotive",
+    "email": "akash1@gmail.com",
+    "age": "24",
+    "joiningdate": "2019-02-04T22:59:59.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Kavya Pulluri ",
+    "department": "High-tech",
+    "email": "kavya2@gmail.com",
+    "age": "24",
+    "joiningdate": "2021-11-28T22:59:59.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Akhil Thota",
+    "department": "Manufacturing",
+    "email": "akhil@gmail.com",
+    "age": "23",
+    "joiningdate": "2021-12-02T22:59:59.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Vamsi Padipala",
+    "department": "High-tech",
+    "email": "vamsi@gmail.com",
+    "age": "27",
+    "joiningdate": "2018-02-22T22:59:59.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Trushita Mademula",
+    "department": "BPO",
+    "email": "trushi@gmail.com",
+    "age": "21",
+    "joiningdate": "2023-01-03T22:59:59.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Sampath Kandunuri",
+    "department": "Telecoms",
+    "email": "sampath@gmail.com",
+    "age": "24",
+    "joiningdate": "2021-08-17T22:59:59.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Parvathi Chelkuri",
+    "department": "Retail",
+    "email": "parvathi@gmail.com",
+    "age": "25",
+    "joiningdate": "2021-04-21T22:59:59.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Saketh Nampally",
+    "department": "Insurance",
+    "email": "saketh@gmail.com",
+    "age": "25",
+    "joiningdate": "2020-03-18T22:59:59.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Swaroop Dongiri",
+    "department": "Life Sciences",
+    "email": "swaroop@gmail.com",
+    "age": "30",
+    "joiningdate": "2021-04-20T22:59:59.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Neeraj Konidela",
+    "department": "Retail",
+    "email": "neeraj@gmail.com",
+    "age": "28",
+    "joiningdate": "2019-07-30T22:59:59.000Z"
+  }
+]
