@@ -1,31 +1,4 @@
-<div class="container mt-5">
-  
-  
- <!--<h2>Angular Display Data from Json File Example</h2>
-  
-  <table class="table table-striped">
-    <thead>
-        <tr>
-          <th>Id</th>
-          <th>Name</th>
-          <th>Department</th>
-          <th>Email</th>
-          <th>Age</th>
-          <th>Joining Date</th>
-        </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let user of Users">
-        <td>{{ user.id }}</td>
-        <td>{{ user.name }}</td>
-        <td>{{ user.department }}</td>
-        <td>{{ user.email }}</td>
-        <td>{{ user.age }}</td>
-        <td>{{ user.joiningdate }}</td>
-      </tr>
-    </tbody>
-  </table>-->
-    <!-- Section: Design Block -->
+<!-- Section: Design Block -->
 <section class="">
   <!-- Jumbotron -->
   <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
@@ -44,8 +17,7 @@
           <div class="card">
             <div class="card-body py-5 px-md-5">
               <form>
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-              
+
                 <!-- User input -->
                 <div class="form-outline mb-4">
                   <input type="email" id="form3Example3" class="form-control" />
@@ -58,14 +30,13 @@
                   <label class="form-label" for="form3Example4">Password</label>
                 </div>
 
-                               <div>
                   
-                      <button class="btn btn-outline-success"  (click)="goToPage('home')">Login</button>
+                      <button class="btn btn-outline-success"  routerLink="/home">Login</button>
 
               
-                </div>
 
                 <!-- Submit button -->
+               
                
               </form>
             </div>
@@ -79,4 +50,3 @@
 <!-- Section: Design Block -->
 
 <router-outlet></router-outlet>
-</div>
