@@ -1,15 +1,5 @@
 import { Component } from '@angular/core';
 import {Router} from '@angular/router';
-import UsersJson from './users.json';
- 
-interface USERS {
-    id: Number;
-    name: String;
-    department: String;
-    email: String;
-    age: String;
-    joiningdate: String;
-}
 
 @Component({
   selector: 'app-root',
@@ -18,20 +8,13 @@ interface USERS {
 })
 export class AppComponent {
 
+  constructor(private router: Router){
+   }
+
   title = 'sneha-angular-demo';
 
-  constructor(private router: Router){
-  }
+ }
   
-   goToPage(pageName:string):void{
-    this.router.navigate([`${pageName}`]);
-  }
-  OnClickFunction() {
-    this.router.navigate([])
-  }
- // Users: USERS[] = UsersJson;
- // constructor(){
-   // console.log(this.Users);//
-}
+
 
 

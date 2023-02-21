@@ -6,10 +6,12 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
+  {path:'' ,component:LoginComponent},
   {path:'employee' ,component:EmployeeComponent},
   {path:"home",component:HomeComponent},
   {path:"login",component:LoginComponent}
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
